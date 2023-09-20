@@ -177,7 +177,7 @@ function TransferErc20Button({setResult, tatum}: {setResult: any, tatum: any}) {
             if (tatum) {
                 const receiverAddress = TARGET_ADDRES;
                 const amount = String(TOKEN_AMOUNT);
-                const tokenAddress = '0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e'; // test token on Mumbai
+                const tokenAddress = TOKEN_ADDERSS; // test token on Mumbai
                 // display waiting popup
                 handler = toast.loading('Waiting for the User to sign the transaction in his Wallet....',
                     { position: "bottom-left" });
@@ -217,7 +217,7 @@ function ApproveErc20Button({setResult, tatum}: {setResult: any, tatum: any}) {
             if (tatum) {
                 const targetContractAddress = TARGET_ADDRES;
                 const amount = String(TOKEN_AMOUNT);
-                const tokenAddress = TOKEN_ADDERSS; // ccCLO on Polygon
+                const tokenAddress = TOKEN_ADDERSS;
                 // display waiting popup
                 handler = toast.loading('Waiting for the User to sign the transaction in his Wallet....',
                     { position: "bottom-left" });
