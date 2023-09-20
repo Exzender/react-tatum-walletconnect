@@ -1,4 +1,4 @@
-{
+  {
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -10,6 +10,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
